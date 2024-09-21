@@ -65,7 +65,7 @@ html {
 
 .sobremi {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   background-color: #1e2326;
   color: #fff;
   height: 80vh;
@@ -78,15 +78,15 @@ html {
   color: #1cb698;
 }
 
-.sopbremi .info-contenido {
-  font-size: large;
-  align-content: center;
+.sobremi .info-contenido {
+  font-size: 18px;
+  margin: 50px;
 }
 
 .sobremi img {
   width: 350px;
   border: 7px solid #1cb698;
-  height: 420px;
+  height: 350px;
 }
 
 .conocimientos {
@@ -104,9 +104,59 @@ html {
 
 .conocimientos .imgsConocimientos {
   display: flex;
-  margin: 100px;
+  margin: 100px 0;
   height: 150px;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.proyectos {
+  background-color: #1e2326;
+  color: #fff;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.proyectos h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.contenido-proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.contenido-proyectos .proyecto {
+  height: 385px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+}
+
+.contenido-proyectos .proyecto .botonProyecto {
+  text-decoration: none;
+  color: #1cb698;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.contenido-proyectos .proyecto img {
+  width: 100%;
+  height: 180px;
+  position: relative;
 }
 
 .contacto {
@@ -181,6 +231,7 @@ footer {
   text-align: center;
   position: relative;
   width: 100%;
+  margin-bottom: 0px;
 }
 
 footer h2 {
